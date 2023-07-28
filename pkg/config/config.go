@@ -8,7 +8,7 @@ type DatabaseConfig struct {
 
 type Config struct {
 	DatabaseConfig DatabaseConfig
-	Port string`default:"8080"`
+	Port 		   string `default:"8080"`
 }
 
 func LoadConfig() (*Config, error) {
